@@ -30,4 +30,9 @@
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
     <string name="enter_student_name">Enter Student Name</string>
     <string name="enter_student_phone_number">Enter Student Phone Number</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="jenis_barang">Jenis Barang</string>
+    <string name="umur_barang">Umur Barang</string>
+    <string name="harga_barang">Harga Barang</string>
+    <string name="jumlah_kilo">Jumlah/Kilo</string>
 </resources>

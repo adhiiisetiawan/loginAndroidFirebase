@@ -18,7 +18,7 @@ android {
         }
     }
 
-    packagingOptions{
+    packagingOptions {
         exclude 'META-INF/LICENSE'
         exclude 'META-INF/LICENSE-FIREBASE.txt'
         exclude 'META-INF/NOTICE'
@@ -33,7 +33,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
     implementation 'com.google.android.material:material:1.0.0-beta01'
-    implementation  'com.firebase:firebase-client-android:2.4.0'
+    implementation 'com.firebase:firebase-client-android:2.4.0'
     implementation 'com.firebaseui:firebase-ui-database:6.1.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
