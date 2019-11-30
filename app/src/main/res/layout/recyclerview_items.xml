@@ -3,15 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/cardview1"
     android:layout_gravity="center"
-    android:layout_marginLeft="8dp"
-    android:layout_marginTop="4dp"
-    android:layout_marginRight="8dp"
-    android:layout_marginBottom="4dp"
-    card_view:cardCornerRadius="4dp">
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="26dp"
-                    android:text="@string/nama_barang"
+                    android:text="@string/text_nama_barang"
                     android:textSize="14sp" />
 
                 <TextView
@@ -57,7 +57,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="26dp"
-                    android:text="@string/jenis_barang"
+                    android:text="@string/text_jenis_barang"
                     android:textSize="14sp" />
 
                 <TextView
@@ -79,7 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="26dp"
-                    android:text="@string/umur_barang"
+                    android:text="@string/text_umur_barang"
                     android:textSize="14sp" />
 
                 <TextView
@@ -123,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="26dp"
-                    android:text="@string/harga_barang"
+                    android:text="@string/text_harga_barang"
                     android:textSize="14sp" />
 
                 <TextView
@@ -138,7 +138,4 @@
 
         </TableLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
 </androidx.cardview.widget.CardView>

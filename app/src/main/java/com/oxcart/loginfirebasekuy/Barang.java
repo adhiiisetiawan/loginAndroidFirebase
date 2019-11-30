@@ -4,8 +4,8 @@ public class Barang {
     private String namaBarang;
     private String jenisBarang;
     private String umurBarang;
-    private int jumlahPerKilo;
-    private int hargaBarang;
+    private String  jumlahPerKilo;
+    private String hargaBarang;
 
     public Barang() {
     }
@@ -34,19 +34,19 @@ public class Barang {
         this.umurBarang = umurBarang;
     }
 
-    public int getJumlahPerKilo() {
+    public String getJumlahPerKilo() {
         return jumlahPerKilo;
     }
 
-    public void setJumlahPerKilo(int jumlahPerKilo) {
+    public void setJumlahPerKilo(String jumlahPerKilo) {
         this.jumlahPerKilo = jumlahPerKilo;
     }
 
-    public int getHargaBarang() {
+    public String getHargaBarang() {
         return hargaBarang;
     }
 
-    public void setHargaBarang(int hargaBarang) {
+    public void setHargaBarang(String hargaBarang) {
         this.hargaBarang = hargaBarang;
     }
 }

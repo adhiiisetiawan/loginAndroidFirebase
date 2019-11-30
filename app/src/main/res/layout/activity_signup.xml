@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@color/colorPrimaryDark"
+        android:background="@android:color/white"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="@dimen/activity_horizontal_margin">
@@ -31,7 +31,8 @@
             android:inputType="textPersonName"
             android:maxLines="1"
             android:singleLine="true"
-            android:textColor="@android:color/white" />
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black" />
 
         <EditText
             android:id="@+id/email"
@@ -41,7 +42,8 @@
             android:inputType="textEmailAddress"
             android:maxLines="1"
             android:singleLine="true"
-            android:textColor="@android:color/white" />
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black" />
 
         <EditText
             android:id="@+id/password"
@@ -53,7 +55,8 @@
             android:inputType="textPassword"
             android:maxLines="1"
             android:singleLine="true"
-            android:textColor="@android:color/white" />
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black" />
 
 
         <Button
@@ -62,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/btn_round"
             android:text="@string/action_sign_in_short"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
@@ -75,7 +78,7 @@
             android:background="@null"
             android:text="@string/btn_forgot_password"
             android:textAllCaps="false"
-            android:textColor="@color/colorAccent" />
+            android:textColor="@android:color/black" />
 
         <!-- Link to Login Screen -->
 
@@ -87,7 +90,7 @@
             android:background="@null"
             android:text="@string/btn_link_to_login"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@android:color/black"
             android:textSize="15dp" />
     </LinearLayout>
 
